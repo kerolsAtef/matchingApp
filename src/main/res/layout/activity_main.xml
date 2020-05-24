@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000"
+    >
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <ImageView
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:layout_centerHorizontal="true"
+           android:src="@drawable/matching_images_background"
+           android:layout_marginTop="50dp"
+           android:id="@+id/title"
+           />
+
+           <TextView
+               android:layout_below="@+id/title"
+               android:layout_centerHorizontal="true"
+               android:layout_centerVertical="true"
+               android:layout_width="350dp"
+               android:layout_height="70dp"
+               android:textColor="#D6CC25"
+               android:textSize="30dp"
+               android:textStyle="bold"
+               android:text="Eazy"
+               android:id="@+id/easy"
+               android:layout_marginTop="50dp"
+               android:gravity="center"
+               android:background="@drawable/level_shape"
+               />
+
+       <TextView
+           android:layout_below="@+id/easy"
+           android:layout_centerHorizontal="true"
+           android:layout_width="350dp"
+           android:layout_height="70dp"
+           android:textColor="#D6CC25"
+           android:textSize="30dp"
+           android:textStyle="bold"
+           android:text="Medium"
+           android:id="@+id/medium"
+           android:layout_marginTop="50dp"
+           android:gravity="center"
+           android:background="@drawable/level_shape"
+           />
+
+       <TextView
+           android:layout_below="@+id/medium"
+           android:layout_centerHorizontal="true"
+           android:layout_centerVertical="true"
+           android:layout_width="350dp"
+           android:layout_height="70dp"
+           android:textColor="#D6CC25"
+           android:textSize="30dp"
+           android:textStyle="bold"
+           android:text="Hard"
+           android:id="@+id/hard"
+           android:layout_marginTop="50dp"
+           android:gravity="center"
+           android:background="@drawable/level_shape"
+           />
+
+   </RelativeLayout>
+</ScrollView>
